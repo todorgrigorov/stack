@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId />
+    <Authors>Stack</Authors>
+    <Company />
+    <Product />
+    <Description>The Web assembly, containing types for web communication, like consuming RESTful APIs.</Description>
+    <SignAssembly>True</SignAssembly>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Version>1.3.16.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Version\AssemblyVersion.cs" Link="AssemblyVersion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stack\Stack.csproj" />
+  </ItemGroup>
+</Project>

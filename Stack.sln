@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Version", "Version", "{306E85FD-29F4-43CA-A85B-845465579862}"
+	ProjectSection(SolutionItems) = preProject
+		Version\AssemblyVersion.cs = Version\AssemblyVersion.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{6BEA8945-CC71-44EB-997D-0A507C141BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Data", "Stack.Data\Stack.Data.csproj", "{F72BCF4D-209D-4745-AF4F-F767926ECB71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Data.Migrations", "Stack.Data.Migrations\Stack.Data.Migrations.csproj", "{ADB951BF-E193-4B54-BB56-FB35557C5040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Web", "Stack.Web\Stack.Web.csproj", "{5B142789-A46D-43DA-84AD-B552AAEF69E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Web.Mvc", "Stack.Web.Mvc\Stack.Web.Mvc.csproj", "{612F9FC3-DD37-4738-8641-21BC97E3EFFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Data.SqlServer", "Stack.Data.SqlServer\Stack.Data.SqlServer.csproj", "{0FA47002-608E-4092-8E7A-F3E5CAE13D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Data.Sqlite", "Stack.Data.Sqlite\Stack.Data.Sqlite.csproj", "{87D8E841-AF65-43AB-A0B5-A5D9C5B48A26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack.Data.PostgreSql", "Stack.Data.PostgreSql\Stack.Data.PostgreSql.csproj", "{B81684C4-065B-47D6-B03B-2F2D383FF7D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BEA8945-CC71-44EB-997D-0A507C141BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEA8945-CC71-44EB-997D-0A507C141BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEA8945-CC71-44EB-997D-0A507C141BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEA8945-CC71-44EB-997D-0A507C141BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72BCF4D-209D-4745-AF4F-F767926ECB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72BCF4D-209D-4745-AF4F-F767926ECB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72BCF4D-209D-4745-AF4F-F767926ECB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72BCF4D-209D-4745-AF4F-F767926ECB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB951BF-E193-4B54-BB56-FB35557C5040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB951BF-E193-4B54-BB56-FB35557C5040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB951BF-E193-4B54-BB56-FB35557C5040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB951BF-E193-4B54-BB56-FB35557C5040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B142789-A46D-43DA-84AD-B552AAEF69E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B142789-A46D-43DA-84AD-B552AAEF69E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B142789-A46D-43DA-84AD-B552AAEF69E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B142789-A46D-43DA-84AD-B552AAEF69E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612F9FC3-DD37-4738-8641-21BC97E3EFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612F9FC3-DD37-4738-8641-21BC97E3EFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612F9FC3-DD37-4738-8641-21BC97E3EFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612F9FC3-DD37-4738-8641-21BC97E3EFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA47002-608E-4092-8E7A-F3E5CAE13D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA47002-608E-4092-8E7A-F3E5CAE13D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA47002-608E-4092-8E7A-F3E5CAE13D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA47002-608E-4092-8E7A-F3E5CAE13D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D8E841-AF65-43AB-A0B5-A5D9C5B48A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D8E841-AF65-43AB-A0B5-A5D9C5B48A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D8E841-AF65-43AB-A0B5-A5D9C5B48A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D8E841-AF65-43AB-A0B5-A5D9C5B48A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81684C4-065B-47D6-B03B-2F2D383FF7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81684C4-065B-47D6-B03B-2F2D383FF7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81684C4-065B-47D6-B03B-2F2D383FF7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81684C4-065B-47D6-B03B-2F2D383FF7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://todorgrigorov.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Stack\\Stack.csproj
+		SccProjectName1 = Stack
+		SccLocalPath1 = Stack
+		SccProjectUniqueName2 = Stack.Data\\Stack.Data.csproj
+		SccProjectName2 = Stack.Data
+		SccLocalPath2 = Stack.Data
+		SccProjectUniqueName3 = Stack.Data.Migrations\\Stack.Data.Migrations.csproj
+		SccProjectName3 = Stack.Data.Migrations
+		SccLocalPath3 = Stack.Data.Migrations
+		SccProjectUniqueName4 = Stack.Services\\Stack.Services.csproj
+		SccProjectName4 = Stack.Services
+		SccLocalPath4 = Stack.Services
+		SccProjectUniqueName5 = Stack.Web\\Stack.Web.csproj
+		SccProjectName5 = Stack.Web
+		SccLocalPath5 = Stack.Web
+	EndGlobalSection
+EndGlobal

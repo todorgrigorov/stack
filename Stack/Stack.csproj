@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors />
+    <SignAssembly>True</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <Description>The Stack assembly, containing most of the main types, configurations &amp; other vital facilities.</Description>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <PackageId />
+    <Version>1.3.16.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Version\AssemblyVersion.cs" Link="AssemblyVersion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AgileObjects.AgileMapper" Version="0.12.0" />
+    <PackageReference Include="Autofac" Version="4.6.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="2.0.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
+    <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logging\" />
+  </ItemGroup>
+</Project>

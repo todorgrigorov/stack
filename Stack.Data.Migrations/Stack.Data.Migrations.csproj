@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId />
+    <Authors>Stack</Authors>
+    <Company />
+    <Product />
+    <Description>The Migrations assembly, containing types which upgrade the state of a persistence service, like a database.</Description>
+    <SignAssembly>True</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>Stack.Data.Migrations</RootNamespace>
+    <Version>1.3.16.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Version\AssemblyVersion.cs" Link="AssemblyVersion.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stack.Data\Stack.Data.csproj" />
+    <ProjectReference Include="..\Stack\Stack.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+.vs
+.vscode
+*.userprefs
+bin
+obj
+packages
+*.vssscc
+*.vspscc
+.suo
+.DS_Store
+NuGet
